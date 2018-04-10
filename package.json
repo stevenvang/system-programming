@@ -1,0 +1,29 @@
+{
+  "name": "filereadexample",
+  "version": "0.0.1",
+  "description": "Example to read file sizes in a directory",
+  "main": "app.js",
+  "author": "Steven Vang",
+  "scripts": {
+    "start": "babel-node app.js"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenvang/system-programming.git"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.3",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-2": "6.24.1"
+  }
+}
